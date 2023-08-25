@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    position: relative;
+}
+.header{
+    font-style: normal;
+    background-color: rgba(63,66,103,255);
+    height: 60px;
+}
+.categories{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 5px;
+    border: 1px solid rgba(63,66,103,255);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px 20px;
+    background-image: linear-gradient(to right, rgba(26,14,68,255) , rgba(230,53,49,255));
+  }
+  .categoriestotal{
+    margin-left: 700px;
+    margin-top: -43px;
+    color: white;
+  }
+ 
+.einkaufswagen{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 12px;
+   background: none;
+   border: none;
+   width: 40px;
+}
+.haus{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.categoriesIT{
+    display: inline-block;
+    border: 1px solid rgba(51,51,51,255);
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-right: 120px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(51,51,51,255);
+    color: white;
+    vertical-align: top;
+
+
+}
+.shoplist{
+    list-style-type: none;
+}
+.shopproducts:hover{
+    color: rgba(128,48,63,255);
+}
+.details{
+    display: inline-block;
+    border: 5px solid rgba(119,23,23,255);
+    width: 850px;
+    height: 315px;
+    background-color: rgba(238,201,204,255);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.hicoders{
+    padding-top: 10px;
+    padding-left: 215px;
+
+}
+.paragraph{
+padding-left: 5px;
+padding-right: 20px;
+margin-bottom: 10px;
+}
+.footer{
+    background-color: rgba(51,51,51,255);
+    color: white;
+    height: 60px;
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100vw
+}
